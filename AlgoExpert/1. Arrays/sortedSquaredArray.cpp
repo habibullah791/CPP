@@ -37,23 +37,7 @@ vector<int> sortedSquaredArray(vector<int> array)
 
 int main()
 {
-    // vector<int> array = {3, 6, 1};
-    // sortedSquaredArray(array);
-
-    int size = 5;
-    int array[5] = {};
-
-    // size = 10;
-    // array[6] = 10;
-
-    for (int i = 1; i < 10; i++)
-    {
-        array[i] = i;
-    }
-
-    for (int i = 0; i < 10; i++)
-    {
-        cout<<"-- "<<array[i];
-    }
+    vector<int> array = {3, 6, 1};
+    sortedSquaredArray(array);
     
 }
